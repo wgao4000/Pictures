@@ -1,0 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+body {
+  background: #EDEDED;
+}
+.popular li, .latest li {
+  display: inline-block;
+  width: 306px;
+  height: 306px;
+  margin: 0px 20px 20px 0px;
+}
+.popular, .latest {
+  width: 1004px;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+  font-family: 'Lato';
+  font-size: 36px;
+  padding: 20px;
+  font-weight: bold;
+  color: #4F4F4F;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+img {
+  border-radius: 10px;
+  border: 1px solid #DEDEDE;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+span {
+  font-family: 'Lato';
+  font-size: 24px;
+  text-align: center;
+  display: block;
+  padding: 10px 0px;
+}
