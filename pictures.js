@@ -21,6 +21,8 @@ $.ajax({
   dataType: "jsonp",
   url: "https://api.instagram.com/v1/users/1444396272/?access_token=1444396272.7ca01c7.0cdf1f7b95f846f2a19434349c2d3421",
   success: function(data) {
+  //  $('.name').text(data.data.username);
+   // $('.tagline').text(data.data.bio);
   }
 });
 $(document).on('click','.btag',function(){
