@@ -97,3 +97,16 @@ label{
   -webkit-border-radius:2px;
   -moz-border-radius:2px;
 }
+img.refresh1,img.refresh2{
+   float:right;
+   clear:both;
+   width:56px;
+   height:56px;
+   margin:2em 0;
+}
+*{
+  outline:0px solid blue;
+}
+.taginfo h1{
+  margin-top:3em;
+}
