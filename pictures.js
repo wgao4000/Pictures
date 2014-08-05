@@ -1,7 +1,9 @@
 $(document).ready(function(){
   getpopul();
   $(document).on('click','.refresh1',function(){
-   getpopul();
+    $('.refresh1').fadeOut("slow");
+    getpopul();
+    $('.refresh1').fadeIn();
   });
   setTimeout(function(){
    $(".taginfo").append('<h1>Tag</h1><label for="tag" class="ltag">Enter the tag:</label><input type="text" id="tag"><button type="button" class="btag">Find</button>');
@@ -12,14 +14,15 @@ $(document).ready(function(){
    url: "https://api.instagram.com/v1/users/1444396272/?access_token=1444396272.7ca01c7.0cdf1f7b95f846f2a19434349c2d3421",
    success: function(data) {
    }
-  });
-
+ });
  $(document).on('click','.btag',function(){
    gettag();
  }); 
 
  $(document).on('click','.refresh2',function(){
+   $('.refresh2').fadeOut("slow");
    gettag();
+   $('.refresh2').fadeIn();
  }); 
 });
 function getpopul(){ 
